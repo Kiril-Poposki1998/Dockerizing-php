@@ -1,3 +1,5 @@
 # Task 01 on Phase 02
 
-This repo for [Task 01](https://learningdevops.makvaz.com/phase2-task1-run-docker-locally).
+docker build -t docker-php .
+
+docker -d -p 8080:80 --rm --name php-test docker-php
